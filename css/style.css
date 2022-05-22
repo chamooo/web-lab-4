@@ -1,0 +1,49 @@
+.wrapper {
+  margin-right: auto; 
+  margin-left:  auto; 
+
+  max-width: 960px; 
+
+  padding-right: 10px; 
+  padding-left:  10px; 
+}
+body {
+  background-color: rgb(28, 28, 28);
+}
+li {
+  list-style-type: none;
+}
+
+.img {
+  width: 200px;
+  object-fit: contain;
+} 
+
+.btn {
+	padding: 14px 63px;
+	background-color: #e34954;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	color: #FCFDFE;
+	border-radius: 5px;
+	transition: background-color 0.3s ease 0s;
+}
+.btn:hover {
+	background-color: #e76c74;
+}
+.btn-task {
+  display: inline-block;
+}
+.btn-container {
+  margin: 30px 0 30px 0;
+}
+.pic-item {
+  margin-top: 5px;
+}
+
